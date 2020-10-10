@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - ci
+      - ci*
   pull_request:
     branches:
       - master
