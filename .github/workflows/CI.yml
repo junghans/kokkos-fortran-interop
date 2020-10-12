@@ -60,4 +60,4 @@ jobs:
           cmake --install build
       - name: Upload Report to codecov.io
         uses: codecov/codecov-action@v1
-        if: ${{ matrix.gcc_ver = '9' }}
+        if: ${{ matrix.gcc_ver == '9' }}
